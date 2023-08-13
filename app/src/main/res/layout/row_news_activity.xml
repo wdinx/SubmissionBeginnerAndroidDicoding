@@ -18,15 +18,15 @@
 
         <ImageView
             android:id="@+id/imgNews"
-            android:layout_width="wrap_content"
-            android:layout_height="250dp"
-            android:scaleType="fitCenter"
-            android:layout_marginBottom="8dp"
-            card_view:layout_constraintEnd_toEndOf="parent"
-            card_view:layout_constraintStart_toStartOf="parent"
-            card_view:layout_constraintTop_toTopOf="parent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/image_description"
+            android:scaleType="center"
             android:src="@drawable/berita_jakarta"
-            android:contentDescription="@string/image_description" />
+            card_view:layout_constraintEnd_toEndOf="parent"
+            card_view:layout_constraintHorizontal_bias="0.51"
+            card_view:layout_constraintStart_toStartOf="parent"
+            card_view:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/tvNewsTitle"
@@ -46,7 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/penulis"
-            android:textSize="8sp"
+            android:textSize="12sp"
             card_view:layout_constraintHorizontal_chainStyle="packed"
             card_view:layout_constraintEnd_toStartOf="@id/tvNewsDate"
             card_view:layout_constraintStart_toStartOf="parent"
@@ -59,7 +59,7 @@
             android:layout_height="match_parent"
             android:layout_marginStart="8dp"
             android:text="@string/date"
-            android:textSize="8sp"
+            android:textSize="12sp"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toEndOf="@+id/tvNewsWriter"
             card_view:layout_constraintTop_toBottomOf="@+id/tvNewsTitle"

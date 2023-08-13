@@ -19,21 +19,20 @@
         <ImageView
             android:id="@+id/imgDetailNews"
             android:layout_width="match_parent"
-            android:layout_height="250dp"
-            android:scaleType="fitCenter"
+            android:layout_height="wrap_content"
+            android:scaleType="center"
             android:layout_marginStart="8dp"
             android:layout_marginTop="4dp"
             android:layout_marginEnd="8dp"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toStartOf="parent"
             card_view:layout_constraintTop_toTopOf="parent"
-            tools:src="@tools:sample/avatars" />
+            android:src="@drawable/hutan_mangrove" />
 
         <TextView
             android:id="@+id/tvDetailNewsTitle"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:maxLines="2"
             android:text="@string/news_title"
             android:textAlignment="center"
             android:textStyle="bold"
@@ -49,7 +48,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/penulis"
-            android:textSize="12sp"
+            android:textSize="15sp"
             card_view:layout_constraintHorizontal_chainStyle="packed"
             card_view:layout_constraintEnd_toStartOf="@id/tvDetailNewsDate"
             card_view:layout_constraintStart_toStartOf="parent"
@@ -63,7 +62,7 @@
             android:layout_height="match_parent"
             android:layout_marginStart="8dp"
             android:text="@string/date"
-            android:textSize="12sp"
+            android:textSize="15sp"
             card_view:layout_constraintEnd_toEndOf="parent"
             card_view:layout_constraintStart_toEndOf="@+id/tvDetailNewsWriter"
             card_view:layout_constraintTop_toBottomOf="@+id/tvDetailNewsTitle"
