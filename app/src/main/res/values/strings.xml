@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">SubmissionAndroidBeginnner</string>
+    <string name="news_title">News Title</string>
+    <string name="by">by</string>
+    <string name="penulis">Penulis</string>
+    <string name="date">Date</string>
+    <string name="description">Description</string>
+    <string-array name="list_news_title">
+        <item>Konser Kpop di Penutupan Jambore Dunia. Hibur Peserta, Kembalikan Citra Baik Korea</item>
+        <item>Serangan ISIS Mengerikan: Bus Tentara Suriah Dihantam Tembakan Mematikan, 33 Korban Jiwa Gugur</item>
+        <item>Inilah Amadeo, Peraih Nilai UTBK Tertinggi 2023 yang Sempat Gagal SNBP/</item>
+        <item>Ukir Prestasi Tingkat Nasional, Wisata Mangrove Kedatim di Sumenep Punya Keindahan yang Menakjubkan</item>
+        <item>Viral Kakek Lecehkan Siswi SD di Jaktim, Pelaku Langsung Digulung Polisi</item>
+    </string-array>
+    <string-array name="list_news_writer">
+        <item>Editor Indo Times ArtNet</item>
+        <item>Editor Indo Times ArtNet</item>
+        <item>Trisna Wulandari</item>
+        <item>Deni Agustian</item>
+        <item>Samsudhuha Wildansyah</item>
+    </string-array>
+    <string-array name="list_news_date">
+        <item>- August 12, 2023</item>
+        <item>- August 12, 2023</item>
+        <item>- August 10, 2023</item>
+        <item>- August 13, 2023</item>
+        <item>- August 12, 2023</item>
+    </string-array>
+    <string-array name="list_news_description">
+        <item>Salah satu peserta Jambore Dunia yang mewakili Indonesia, Arya Arganta Ayudianto, berbagi pengalaman bagaimana antusiasme begitu tinggi pada saat pembukaan. Banyak peserta bergerak menuju lokasi acara dengan semangat. Namun ironisnya, ini juga menyebabkan beberapa peserta terpisah dari kontingen mereka masing-masing.
+            \nArya berkisah, “Saat acara pembukaan WSJ 23, semua peserta dari berbagai negara bergerak menuju arena utama, sebuah taman luas dengan panggung yang megah. Namun, dalam kerumunan ini, terjadi konfrontasi dan sebagian peserta terpisah dari kelompok negaranya.” Kekecewaan tidak hanya terbatas pada hal tersebut.
+            \nAcara yang seharusnya penuh kegembiraan berubah menjadi kekecewaan ketika acara tersebut dieksploitasi oleh politisi untuk menyampaikan pidato-pidato mereka.
+            \n“Kami merasa kecewa dengan acara pembukaan yang tidak sepenuhnya sesuai harapan, di mana pertunjukan minim dan banyak pidato dari pemimpin dan politikus,” ujar Arya.
+            \nSetelah pembukaan resmi, para peserta harus mengatasi tantangan berupa cuaca yang panas dan lembab. </item>
+        <item>Akibat serangan ISIS yang dilancarkan kepada pasukan pemerintah Suriah, jumlah korban tewas telah meningkat menjadi 33 tentara.
+            \nData terbaru serangan ISIS ini menggantikan angka sebelumnya yang mencatat 23 jiwa yang hilang akibat insiden tersebut.
+            \nKantor berita AFP melaporkan pada Sabtu (12/8/2023) bahwa Observatorium Suriah untuk Hak Asasi Manusia menginformasikan bahwa insiden penembakan yang terjadi pada Kamis (10/8) malam waktu setempat.
+            \nDi mana sebuah bus tentara Suriah menjadi sasaran.
+            \nMenjadikan serangan ISIS paling fatal yang dilakukan terhadap pasukan pemerintah dalam tahun ini.</item>
+        <item>Amadeo Yesa menjadi peraih nilai UTBK tertinggi di SNBT 2023. Mengantongi nilai 827,94, Deo diterima di Departemen Teknik Informatika Institut Teknologi Sepuluh Nopember (ITS). Pemuda kelahiran Surabaya, 25 Juli 2005 ini menuturkan, pencapaiannya tidak lepas dari dukungan orang tua dan para guru di sekolahnya, SMA Katolik Rajawali Makassar./</item>
+        <item>Kabupaten Sumenep, Jawa Timur tak hanya terkenal dengan keindahan pantai dan budayanya, tetapi juga menyimpan beragam destinasi wisata yang memikat. Salah satunya Wisata Mangrove Kedatim.\nTerletak di Desa Kebundadap timur, Saronggi, Sumenep, Jawa Timur, tempat ini telah menjadi daya tarik para wisatawan, baik dari dalam maupun luar kota. Selain menawarkan keindahan alam yang mengagumkan, Wisata Mangrove Kedatim juga telah diakui dan dinobatkan menjadi juara dalam lomba Desa Wisata Nusantara tahun 2022 lalu.\nWisata ini menawarkan pemandangan mempesona dengan suasana hutan mangrove yang hijau dan asri. Pohon bakau yang menjulang tinggi, akar-akar yang menjalar, serta kicauan burung, memancarkan kedamaian untuk dinikmati dengan tenang.</item>
+        <item>Sebuah video viral di media sosial menampilkan aksi bejat seorang kakek-kakek melecehkan bocah SD di Jakarta Timur. Pihak kepolisian sendiri sudah berhasil menangkap pelaku. \nDalam akun Instagram @lensa_berita_jakarta, sebuah video menampilkan aksi bejat kakek-kakek yang meraba dada bocah berseragam SD. Aksi tersebut dilakukan di sebuah gang.\nMasih dalam akun tersebut, ada pula video di lokasi lain yang memperlihatkan aksi kakek tersebut. Di lokasi berbeda, Kakek tersebut terlihat melecehkan bocah berseragam SD.</item>
+    </string-array>
+    <string-array name="list_news_image">
+        <item>@drawable/penutupan_jambore</item>
+        <item>@drawable/serangan_isis</item>
+        <item>@drawable/amadeo_mahasiswa</item>
+        <item>@drawable/hutan_mangrove</item>
+        <item>@drawable/berita_jakarta</item>
+    </string-array>
+</resources>
