@@ -1,7 +1,10 @@
 package com.example.submissionandroidbeginnner
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.Menu
+import android.view.MenuItem
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView.LayoutManager
 import com.example.submissionandroidbeginnner.databinding.ActivityMainBinding
@@ -42,5 +45,20 @@ class MainActivity : AppCompatActivity() {
             listNews.add(news)
         }
         return listNews
+    }
+
+    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+        menuInflater.inflate(R.menu.profile, menu)
+        return super.onCreateOptionsMenu(menu)
+    }
+
+    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+        when(item.itemId){
+            R.id.user_profile -> {
+                val intent = Intent(this@MainActivity, UserActivity::class.java)
+                startActivity(intent)
+            }
+        }
+        return super.onOptionsItemSelected(item)
     }
 }
